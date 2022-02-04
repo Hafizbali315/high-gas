@@ -1,0 +1,33 @@
+.img_list {
+	padding: 0 200px 200px 200px;
+
+	.img_container {
+		width: calc(100% - 25px);
+		cursor: pointer;
+
+		img {
+			width: 100%;
+			object-fit: contain;
+		}
+	}
+}
+
+@include desktop-screen {
+	.img_list {
+		padding: 0 100px;
+	}
+}
+
+@include tablet-screen {
+	.img_list {
+		padding: 0 50px 50px 50px;
+
+		.img_container {
+			width: calc(100% - 15px);
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
