@@ -6,12 +6,12 @@ const ThirdSection = () => {
 	return (
 		<div className="third_section">
 			<div className="row gx-5 ">
-				<div className="col-lg-6 col-12 col order-lg-1 d-flex align-items-center justify-content-center order-2 mt-lg-0 mt-4">
+				<div className="col-lg-6 col-12 col  d-flex align-items-center justify-content-center order-1  mt-lg-0 mt-5 ">
 					<div className="img_container">
 						<img src={Vibe} alt="vibe" />
 					</div>
 				</div>
-				<div className="col-lg-6 col-12 col d-flex align-items-center justify-content-center order-lg-2 order-1 ">
+				<div className="col-lg-6 col-12 mt-lg-0 mt-4 col d-flex align-items-center justify-content-center order-2  mt-lg-0 mt-4 ">
 					<div className="content">
 						<h4>It’s a vibe</h4>
 						<p>
@@ -23,12 +23,12 @@ const ThirdSection = () => {
 			</div>
 
 			<div className="row gx-5 mt-5 pt-5">
-				<div className="col-lg-6 col-12 col d-flex align-items-center justify-content-center order-2 mt-lg-0 mt-4">
+				<div className="col-lg-6 col-12 col d-flex align-items-center justify-content-center order-1 order-lg-2 mt-lg-0 mt-4">
 					<div className="img_container">
 						<img src={NoBullshitImg} alt="NoBullshitImg" />
 					</div>
 				</div>
-				<div className="col-lg-6 col-12 col d-flex align-items-center justify-content-center order-1 ">
+				<div className="col-lg-6 col-12 col d-flex align-items-center justify-content-center order-2 order-lg-1 mt-lg-0 mt-4">
 					<div className="content">
 						<h4>No Bullshit</h4>
 						<p>
@@ -40,15 +40,18 @@ const ThirdSection = () => {
 			</div>
 
 			<div className="row gx-5 mt-5 pt-5">
-				<div className="col-lg-6 col-12 col d-flex align-items-center justify-content-center order-lg-1 order-2 mt-lg-0 mt-4">
+				<div className="col-lg-6 col-12 col d-flex align-items-center justify-content-center order-1 mt-lg-0 mt-4">
 					<div className="img_container">
 						<img src={TresureryImg} alt="vibe" />
 					</div>
 				</div>
-				<div className="col-lg-6 col-12 col d-flex align-items-center justify-content-center order-lg-2 order-1 ">
+				<div className="col-lg-6 col-12 col d-flex align-items-center justify-content-center  order-2 mt-4 mt-lg-0 ">
 					<div className="content">
 						<h4>High Gas Treasury</h4>
-						<p>Each time a secondary sale is made 4.2069% of the sale price will fund the high gas treasury.</p>
+						<p>
+							Each time a secondary sale is made 4.2069% of the sale price will fund the high gas treasury. All Token holders receive 1 vote
+							per High Gas NFT they hold on project proposals.
+						</p>
 					</div>
 				</div>
 			</div>

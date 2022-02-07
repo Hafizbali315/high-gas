@@ -35,6 +35,7 @@ const Header = () => {
 						</div>
 
 						<h2>SUPPLY 1,420</h2>
+						<h2>MINT PRICE 0.042069Ξ</h2>
 					</div>
 				</div>
 			</div>
